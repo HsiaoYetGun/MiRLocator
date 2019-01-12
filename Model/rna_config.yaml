@@ -1,0 +1,35 @@
+dynet_seed: 314159
+dynet_mem: 512
+dynet_gpu: True
+encoder: bilstm
+attention: mlp
+decoder: lstm
+verbose: True
+att_dim: 512
+emb_dim: 100
+hidden_dim: 100
+max_len: 7
+dropout_rate: 0.1
+word_dropout_rate: 0.1
+label_smoothing: 0.1
+output_dir: /data/xiaoyiqun/3MerVector100.txt
+language_model: None
+src_vocab_size : 50000
+trg_vocab_size : 50000
+train:
+  train: true
+  num_epochs: 1500
+  batch_size: 32
+  patience: 2
+  dev_batch_size: 16
+  check_train_error_every: 50000
+  check_valid_error_every: 50000
+  valid_bleu_every: 50000
+  gradient_clip: 1.0
+  trainer: sgd
+  learning_rate: 0.3
+  learning_rate_decay: 0.0
+  beam_size: 5
+test:
+  test: True
+  beam_size: 128

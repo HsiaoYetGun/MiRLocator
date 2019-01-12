@@ -1,0 +1,7 @@
+method : ent
+order : desc
+mer : 4
+inputFile : ./raw data/go train.csv
+convertFile : ./raw data/dataCvt.csv
+probFile : ./raw data/prob.json
+outputDir : ./data/
