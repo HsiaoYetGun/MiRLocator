@@ -1,5 +1,5 @@
 # MiRLocator
-Source code and we the RNA embedding we used in **[Prediction of MicroRNA Subcellular Localization by Using a Sequence-to-Sequence Model](https://ieeexplore.ieee.org/abstract/document/8594990)** (ICDM 2018).
+Source code and the RNA embedding we used in **[Prediction of MicroRNA Subcellular Localization by Using a Sequence-to-Sequence Model](https://ieeexplore.ieee.org/abstract/document/8594990)** (ICDM 2018).
 
 # Requirements
 
